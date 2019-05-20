@@ -1,8 +1,13 @@
 
 public class ContaBancaria {
+    String cadastro;
     String nomeDoCliente; 
     int numero;
     double saldo = 500.00;
+    
+    public void cadastro (senha) {
+        
+    }
 
     public void sacar (double valorasersacado) {
 
