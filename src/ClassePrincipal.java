@@ -51,14 +51,18 @@ public class ClassePrincipal {
                                     contaBancaria.depositar(scan.nextDouble());
                                     break;
                                 case 3:
+                                    System.out.println("Seu saldo atual é de: ");
                                     System.out.println(contaBancaria.saldo);
+                                    break;
                                 case 4:
                                     System.exit(0);
                                     break;
                                 default:
                                     System.out.println("Opção inválida.");
+
                             }
-                        } while (option != 0);
+
+                        }while (option != 0); 
                     }
 
             }
