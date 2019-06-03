@@ -20,8 +20,10 @@ public class ContaBancaria {
 
             saldo = saldo - valorasersacado;
             System.out.println("Seu saldo disponível agora é de:" + saldo);
+            System.out.println("");
         } else {
             System.out.println("Saldo insuficiente.");
+            System.out.println("");
         }
     }
 
@@ -33,6 +35,7 @@ public class ContaBancaria {
         } else {
             saldo = saldo + valoraserdepositado;
             System.out.println("Seu saldo disponível agora é de:" + saldo);
+            System.out.println("");
         }
 
     }
